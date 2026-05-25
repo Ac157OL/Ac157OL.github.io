@@ -67,11 +67,6 @@
     border-bottom: 1px solid mix($border-color, #2f5f8f, 75%);
     color: #24384f;
     letter-spacing: 0;
-
-    &:before {
-      content: "";
-      display: none;
-    }
   }
 
   h2 {
@@ -145,48 +140,6 @@
     border-left: 4px solid #2f5f8f;
   }
 
-  .material-symbols-outlined {
-    font-family: 'Material Symbols Outlined';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1.15em;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    -webkit-font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-    font-feature-settings: 'liga';
-    vertical-align: -0.18em;
-  }
-
-  .section-title {
-    display: flex;
-    align-items: center;
-    gap: 0.45em;
-  }
-
-  .section-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 1.75em;
-    height: 1.75em;
-    border-radius: 8px;
-    background: #edf4f8;
-    color: #2f5f8f;
-    font-size: 0.78em;
-    vertical-align: 0;
-  }
-
-  .inline-icon {
-    margin-right: 0.3em;
-    color: #2f5f8f;
-  }
-
   .research-tags {
     display: flex;
     flex-wrap: wrap;
@@ -206,9 +159,9 @@
       font-weight: 600;
     }
 
-    .material-symbols-outlined {
+    i {
       color: #2f5f8f;
-      font-size: 1.1em;
+      font-size: 0.95em;
     }
   }
 

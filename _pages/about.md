@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Lin Zhicheng"
-excerpt: "Junior undergraduate student in Computer Science and Technology at Jimei University, working on computer vision, object detection, LiDAR and point-cloud perception, 3D reconstruction, and large models."
+excerpt: "Junior undergraduate student in Computer Science and Technology at Jimei University, working on computer vision, object detection, LiDAR and point-cloud perception, 3D reconstruction, and large language models."
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,15 +19,15 @@ redirect_from:
 
 <div class="intro-panel" markdown="1">
 
-I am a junior undergraduate student majoring in Computer Science and Technology at [Jimei University](https://www.jmu.edu.cn/). My current work focuses on computer vision, object detection and classification in LiDAR/point-cloud perception, instance segmentation, 3D reconstruction, image signal processing, graph/topology-aware algorithms, and large-model research.
+I am a junior undergraduate student majoring in Computer Science and Technology at [Jimei University](https://www.jmu.edu.cn/). My current work focuses on computer vision, object detection and classification in LiDAR/point-cloud perception, instance segmentation, 3D reconstruction, image signal processing, graph/topology-aware algorithms, and large language model research.
 
-I am especially interested in two research directions: computer vision, including object detection, point-cloud and LiDAR perception, 3D reconstruction, and instance segmentation; and large-model research as an independent direction. I expect to be eligible for recommendation-based graduate admission and am actively seeking prospective graduate supervisors and research opportunities.
+I am especially interested in two research directions: computer vision, including object detection, point-cloud and LiDAR perception, 3D reconstruction, and instance segmentation; and large language model research, especially multimodal interaction with LLMs and vision-language-action (VLA) systems. I expect to be eligible for recommendation-based graduate admission and am actively seeking prospective graduate supervisors and research opportunities.
 
 <div class="research-tags">
-  <span><span class="material-symbols-outlined" aria-hidden="true">visibility</span>Computer Vision</span>
-  <span><span class="material-symbols-outlined" aria-hidden="true">radar</span>LiDAR Perception</span>
-  <span><span class="material-symbols-outlined" aria-hidden="true">view_in_ar</span>3D Reconstruction</span>
-  <span><span class="material-symbols-outlined" aria-hidden="true">psychology</span>Large Models</span>
+  <span><i class="fas fa-eye" aria-hidden="true"></i> Computer Vision</span>
+  <span><i class="fas fa-bullseye" aria-hidden="true"></i> LiDAR Perception</span>
+  <span><i class="fas fa-cubes" aria-hidden="true"></i> 3D Reconstruction</span>
+  <span><i class="fas fa-comments" aria-hidden="true"></i> Multimodal LLMs</span>
 </div>
 
 Email: [202321331023@jmu.edu.cn](mailto:202321331023@jmu.edu.cn) &nbsp;|&nbsp; GitHub: [Ac157OL](https://github.com/Ac157OL) &nbsp;|&nbsp; CSDN: [Ac157ol](https://blog.csdn.net/Ac157ol)
@@ -36,10 +36,10 @@ Email: [202321331023@jmu.edu.cn](mailto:202321331023@jmu.edu.cn) &nbsp;|&nbsp; G
 
 <span class='anchor section-anchor' id='education'></span>
 
-<h1 class="section-title"><span class="material-symbols-outlined section-icon" aria-hidden="true">school</span>Education</h1>
+<h1>Education</h1>
 
 <div class="status-strip" markdown="1">
-<span class="material-symbols-outlined inline-icon" aria-hidden="true">workspace_premium</span>**Current status:** Junior undergraduate student expecting recommendation-based graduate admission and seeking prospective graduate supervisors in computer vision, 3D perception, and large-model research.
+**Current status:** Junior undergraduate student expecting recommendation-based graduate admission and seeking prospective graduate supervisors in computer vision, 3D perception, and large language model research.
 </div>
 
 - *2023.09 - Present*: B.Eng. in Computer Science and Technology, Jimei University.
@@ -47,15 +47,15 @@ Email: [202321331023@jmu.edu.cn](mailto:202321331023@jmu.edu.cn) &nbsp;|&nbsp; G
 
 <span class='anchor section-anchor' id='news'></span>
 
-<h1 class="section-title"><span class="material-symbols-outlined section-icon" aria-hidden="true">campaign</span>News</h1>
-- *Present*: Expecting recommendation-based graduate admission and seeking prospective graduate supervisors in computer vision, 3D perception, and large-model research.
+<h1>News</h1>
+- *Present*: Expecting recommendation-based graduate admission and seeking prospective graduate supervisors in computer vision, 3D perception, and large language model research.
 - *Present*: Exploring object detection, classification, and instance segmentation for LiDAR and point-cloud perception.
 - *Present*: Continuing research on topology-aware microscopic image analysis and robust cell lineage reconstruction.
 - *Present*: Developing AI-assisted scientific workflows that connect visual perception algorithms with practical research tasks.
 
 <span class='anchor section-anchor' id='research'></span>
 
-<h1 class="section-title"><span class="material-symbols-outlined section-icon" aria-hidden="true">science</span>Research Projects</h1>
+<h1>Research Projects</h1>
 
 ## TopoInherit: Cell Lineage Reconstruction for *Pyropia haitanensis*
 *2024.09 - Present*
@@ -67,7 +67,7 @@ This project studies robust spatiotemporal matching and tracking algorithms for 
 - Proposed **TopoInherit**, a cell lineage reconstruction framework that combines local topological features with environmental evidence chains, global-priority arbitration, and adaptive topology consistency validation. The method achieved an F1 score of **92.26%** for lineage relationship prediction.
 - Developed a 2D physical simulation and analysis tool for cellular tissues, supporting regular hexagonal grids, randomly sized cell morphology generation, topology-change simulation, proliferation modeling, real-time rendering, and geometric computation.
 - Led the development of [**CeL3Label**](https://github.com/Ac157OL/Ce3Label), a precise annotation tool for cell lineage labeling, and built two expert-level annotated datasets for *Pyropia haitanensis* cell tracking, available on [Zenodo](https://doi.org/10.5281/zenodo.19571835).
-- Designed a self-developed [Skill workflow](https://github.com/Ac157OL/cell-skills) on the WorkBuddy platform, connecting natural-language instructions with cloud algorithms and large models to support an end-to-end loop of image tracking, intelligent retrieval, and report generation.
+- Designed a self-developed [Skill workflow](https://github.com/Ac157OL/cell-skills) on the WorkBuddy platform, connecting natural-language instructions with cloud algorithms and large language models to support an end-to-end loop of image tracking, intelligent retrieval, and report generation.
 - Served as project leader for a National College Students Innovation and Entrepreneurship Training Program project, which has been successfully completed.
 
 ## Intelligent Image Signal Enhancement and Adaptive Parameter Mechanisms
@@ -80,7 +80,7 @@ Participated in the design of an Image Signal Processor (ISP) project and worked
 
 <span class='anchor section-anchor' id='publications'></span>
 
-<h1 class="section-title"><span class="material-symbols-outlined section-icon" aria-hidden="true">article</span>Publications</h1>
+<h1>Publications</h1>
 
 <div class="publication-list" markdown="1">
 
@@ -117,10 +117,10 @@ Repository: [Vicky-quq/TCPNC](https://github.com/Vicky-quq/TCPNC)
 
 <span class='anchor section-anchor' id='competitions'></span>
 
-<h1 class="section-title"><span class="material-symbols-outlined section-icon" aria-hidden="true">emoji_events</span>Competitions</h1>
+<h1>Competitions</h1>
 
 - *2025.05*: National First Prize, 2nd GOSIM Global Hackathon Programming Competition. Reproduced the PikaRAG knowledge-enhanced model and developed an automated CLI interaction tool based on the MoFA framework for one-click construction and scheduling of multi-agent data flows.
-- *2025.06*: National Second Prize A, 1st National Artificial Intelligence Application Innovation Competition. Cooperated with KingKungfu (Xiamen) Information Technology Co., Ltd.; worked on vertical-domain data cleaning, instruction set construction, and LoRA-based knowledge injection for large models.
+- *2025.06*: National Second Prize A, 1st National Artificial Intelligence Application Innovation Competition. Cooperated with KingKungfu (Xiamen) Information Technology Co., Ltd.; worked on vertical-domain data cleaning, instruction set construction, and LoRA-based knowledge injection for large language models.
 - *2025.06*: Provincial First Prize A, 11th National College Students Statistical Modeling Competition, Fujian Division. Built a UAV-view action recognition pipeline involving 2D keypoint extraction, 2D-to-3D pose reconstruction, and deep spatiotemporal recognition algorithms.
 - *2025.06*: Provincial Second Prize, 18th Chinese Collegiate Computing Competition.
 - *2024.12*: Provincial Second Prize, Huawei ICT Competition China Practice Competition, Ascend AI Track.
@@ -132,7 +132,7 @@ Repository: [Vicky-quq/TCPNC](https://github.com/Vicky-quq/TCPNC)
 
 <span class='anchor section-anchor' id='honors'></span>
 
-<h1 class="section-title"><span class="material-symbols-outlined section-icon" aria-hidden="true">military_tech</span>Honors and Awards</h1>
+<h1>Honors and Awards</h1>
 
 - *2025.06*: National Scholarship, 2024-2025 academic year.
 - *2024.11*: Tan Kah Kee Scholarship, 2023-2024 academic year.
@@ -143,7 +143,7 @@ Repository: [Vicky-quq/TCPNC](https://github.com/Vicky-quq/TCPNC)
 
 <span class='anchor section-anchor' id='skills'></span>
 
-<h1 class="section-title"><span class="material-symbols-outlined section-icon" aria-hidden="true">build</span>Skills and Interests</h1>
+<h1>Skills and Interests</h1>
 
-- Research areas: computer vision, object detection, LiDAR and point-cloud perception, 3D reconstruction, instance segmentation, microscopic image analysis, graph/topology-aware modeling, image signal processing, deep learning, and large-model research.
+- Research areas: computer vision, object detection, LiDAR and point-cloud perception, 3D reconstruction, instance segmentation, microscopic image analysis, graph/topology-aware modeling, image signal processing, deep learning, large language models, multimodal LLMs, and VLA systems.
 - Engineering experience: Python/C/C++, deep learning algorithm development, computer vision pipelines, 3D perception workflows, algorithm simulation, data annotation tools, CLI automation, multi-agent workflows, and LoRA fine-tuning.
