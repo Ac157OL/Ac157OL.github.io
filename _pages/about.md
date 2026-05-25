@@ -19,7 +19,7 @@ redirect_from:
 
 <div class="intro-panel" markdown="1">
 
-I am a junior undergraduate student majoring in Computer Science and Technology at [Jimei University](https://www.jmu.edu.cn/). My current work focuses on computer vision, object detection and classification in LiDAR/point-cloud perception, instance segmentation, 3D reconstruction, image signal processing, graph/topology-aware algorithms, and large language model research.
+I am a junior undergraduate student majoring in Computer Science and Technology at [Jimei University](https://www.jmu.edu.cn/), advised by Prof. Bin Huang. My current work focuses on computer vision, object detection and classification in LiDAR/point-cloud perception, instance segmentation, 3D reconstruction, image signal processing, graph/topology-aware algorithms, and large language model research.
 
 I am especially interested in two research directions: computer vision, including object detection, point-cloud and LiDAR perception, 3D reconstruction, and instance segmentation; and large language model research, especially multimodal interaction with LLMs and vision-language-action (VLA) systems. I expect to be eligible for recommendation-based graduate admission and am actively seeking prospective graduate supervisors and research opportunities.
 
