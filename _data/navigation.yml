@@ -3,23 +3,23 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "Education"
+    url: "/#education"
+
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Research"
-    url: "/#-research-projects"
+    url: "/#research"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Competitions"
-    url: "/#-competitions"
+    url: "/#competitions"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Education"
-    url: "/#-education"
+    url: "/#honors"
 
   - title: "Skills"
-    url: "/#-skills-and-interests"
+    url: "/#skills"

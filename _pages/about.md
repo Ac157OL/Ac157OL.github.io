@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Lin Zhicheng"
-excerpt: "Undergraduate student in Computer Science and Technology at Jimei University, working on computer vision, image signal processing, and scientific AI workflows."
+excerpt: "Junior undergraduate student in Computer Science and Technology at Jimei University, working on computer vision, object detection, LiDAR and point-cloud perception, 3D reconstruction, and large models."
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,20 +17,42 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student majoring in Computer Science and Technology at [Jimei University](https://www.jmu.edu.cn/). My current work focuses on computer vision, image signal processing, graph/topology-aware algorithms, and AI-agent workflows for scientific research.
+<div class="intro-panel" markdown="1">
 
-I am especially interested in building reliable systems that connect algorithms with real experimental needs, including microscopic image analysis, cell lineage reconstruction, ISP enhancement, multimodal data processing, and automated research pipelines.
+I am a junior undergraduate student majoring in Computer Science and Technology at [Jimei University](https://www.jmu.edu.cn/). My current work focuses on computer vision, object detection and classification in LiDAR/point-cloud perception, instance segmentation, 3D reconstruction, image signal processing, graph/topology-aware algorithms, and vision-oriented large models.
+
+I am especially interested in computer vision research, including object detection, point-cloud and LiDAR perception, 3D reconstruction, instance segmentation, and large-model methods for visual understanding. I am also actively seeking prospective graduate supervisors and research opportunities.
 
 Email: [202321331023@jmu.edu.cn](mailto:202321331023@jmu.edu.cn) &nbsp;|&nbsp; GitHub: [Ac157OL](https://github.com/Ac157OL) &nbsp;|&nbsp; CSDN: [Ac157ol](https://blog.csdn.net/Ac157ol)
 
+</div>
+
+<span class='anchor section-anchor' id='education'></span>
+
+# Education
+
+<div class="status-strip" markdown="1">
+**Current status:** Junior undergraduate student seeking prospective graduate supervisors and research opportunities in computer vision, 3D perception, and large-model research.
+</div>
+
+- *2023.09 - Present*: B.Eng. in Computer Science and Technology, Jimei University.
+- GPA: **4.22/5.0**; Rank: **1/125**.
+
+<span class='anchor section-anchor' id='news'></span>
+
 # News
-- *2026.05*: Awarded the Provincial Third Prize in the 13th National College Students' New Generation Information Communication Technology Competition.
-- *2025.10*: Awarded the Provincial Third Prize in the National College Students Mathematical Modeling Competition.
-- *2025.06*: Awarded the National Scholarship for the 2024-2025 academic year.
-- *2025.06*: Won the National Second Prize A in the 1st National Artificial Intelligence Application Innovation Competition.
-- *2025.05*: Won the National First Prize in the 2nd GOSIM Global Hackathon Programming Competition.
+- *Present*: Seeking prospective graduate supervisors and research opportunities in computer vision, 3D perception, and large-model research.
+- *Present*: Exploring object detection, classification, and instance segmentation for LiDAR and point-cloud perception.
+- *Present*: Continuing research on topology-aware microscopic image analysis and robust cell lineage reconstruction.
+- *Present*: Developing AI-assisted scientific workflows that connect visual perception algorithms with practical research tasks.
+
+<span class='anchor section-anchor' id='research'></span>
 
 # Research Projects
+
+<div class="section-note" markdown="1">
+Selected projects that combine algorithm design, scientific data analysis, and deployable research tools.
+</div>
 
 ## TopoInherit: Cell Lineage Reconstruction for *Pyropia haitanensis*
 *2024.09 - Present*
@@ -51,17 +73,46 @@ Participated in the design of an Image Signal Processor (ISP) project and worked
 - Developed and evaluated adaptive enhancement algorithms for improving image signal quality and processing efficiency.
 - Published the conference paper **"Adaptive Gamma Correction with Explicitly Nonlinear Balancing"** as the second author at **ICSPS 2025**.
 
+<span class='anchor section-anchor' id='publications'></span>
+
 # Publications
 
-- **Adaptive Gamma Correction with Explicitly Nonlinear Balancing**. **Lin Zhicheng** (second author), et al. **ICSPS 2025**.
-- **TopoInherit: Robust Cell Lineage Reconstruction in Rigid Algal Networks via Neighborhood Topological Inheritance under Long-term Intervals and FOV Fluctuations**. **Lin Zhicheng** (first author), et al. Submitted to **PLOS Computational Biology**.
-- **TCPCN: Topology-Constrained Polygonization for Cellular Networks under Microscopic Imaging of Dense Honeycomb-like Plant Tissues**. **Lin Zhicheng** (second author), et al. Submitted to **Journal of Microscopy**.
+<div class="publication-list" markdown="1">
+
+<div class="publication-card" markdown="1">
+**Adaptive Gamma Correction with Explicitly Nonlinear Balancing**<br>
+**Lin Zhicheng** (second author), et al. **ICSPS 2025**.
+</div>
+
+<div class="publication-card" markdown="1">
+**TopoInherit: Robust Cell Lineage Reconstruction in Rigid Algal Networks via Neighborhood Topological Inheritance under Long-term Intervals and FOV Fluctuations**<br>
+**Lin Zhicheng** (first author), et al. Submitted to **PLOS Computational Biology**.
+
+<figure class="workflow-figure">
+  <img src="{{ '/images/TopoInherit.png' | relative_url }}" alt="TopoInherit workflow for robust cell lineage reconstruction">
+  <figcaption>Workflow of the TopoInherit cell lineage reconstruction framework.</figcaption>
+</figure>
+</div>
+
+<div class="publication-card" markdown="1">
+**TCPCN: Topology-Constrained Polygonization for Cellular Networks under Microscopic Imaging of Dense Honeycomb-like Plant Tissues**<br>
+**Lin Zhicheng** (second author), et al. Submitted to **Journal of Microscopy**.
+
+<figure class="workflow-figure">
+  <img src="{{ '/images/TCPCN.png' | relative_url }}" alt="TCPCN workflow for topology-constrained polygonization">
+  <figcaption>Workflow of the TCPCN topology-constrained cellular network polygonization method.</figcaption>
+</figure>
+</div>
+
+</div>
+
+<span class='anchor section-anchor' id='competitions'></span>
 
 # Competitions
 
 - *2025.05*: National First Prize, 2nd GOSIM Global Hackathon Programming Competition. Reproduced the PikaRAG knowledge-enhanced model and developed an automated CLI interaction tool based on the MoFA framework for one-click construction and scheduling of multi-agent data flows.
 - *2025.06*: National Second Prize A, 1st National Artificial Intelligence Application Innovation Competition. Cooperated with KingKungfu (Xiamen) Information Technology Co., Ltd.; worked on vertical-domain data cleaning, instruction set construction, and LoRA-based knowledge injection for large models.
-- *2025.06*: Provincial First Prize A, 11th National College Students Statistical Modeling Competition, Fujian Division. Built a UAV-view action recognition pipeline using OpenPose for 2D keypoint extraction, 2D-to-3D pose reconstruction, and temporal-spatial models including CTR-GCN and SkateFormer.
+- *2025.06*: Provincial First Prize A, 11th National College Students Statistical Modeling Competition, Fujian Division. Built a UAV-view action recognition pipeline involving 2D keypoint extraction, 2D-to-3D pose reconstruction, and deep spatiotemporal recognition algorithms.
 - *2025.06*: Provincial Second Prize, 18th Chinese Collegiate Computing Competition.
 - *2024.12*: Provincial Second Prize, Huawei ICT Competition China Practice Competition, Ascend AI Track.
 - *2024.04*: National Third Prize, 15th Lanqiao Cup C/C++ Programming Contest, University Group B.
@@ -69,6 +120,8 @@ Participated in the design of an Image Signal Processor (ISP) project and worked
 - *2025.06*: Provincial Third Prize, 7th Global Campus AI Algorithm Elite Competition.
 - *2025.10*: Provincial Third Prize, National College Students Mathematical Modeling Competition.
 - *2026.05*: Provincial Third Prize, 13th National College Students' New Generation Information Communication Technology Competition.
+
+<span class='anchor section-anchor' id='honors'></span>
 
 # Honors and Awards
 
@@ -79,12 +132,9 @@ Participated in the design of an Image Signal Processor (ISP) project and worked
 - Outstanding Communist Youth League Cadre.
 - CET-6; Huawei Certified ICT Professional - AI (HCIP-AI); Putonghua Proficiency Test, Grade 2-A.
 
-# Education
-
-- *2023.09 - Present*: B.Eng. in Computer Science and Technology, Jimei University.
-- GPA: **4.22/5.0**; Rank: **1/125**.
+<span class='anchor section-anchor' id='skills'></span>
 
 # Skills and Interests
 
-- Research areas: computer vision, microscopic image analysis, graph/topology-aware modeling, image signal processing, machine learning, deep learning, scientific AI workflows.
-- Engineering experience: Python/C/C++, algorithm simulation, data annotation tools, CLI automation, multi-agent workflows, LoRA fine-tuning, OpenPose, CTR-GCN, SkateFormer.
+- Research areas: computer vision, object detection, LiDAR and point-cloud perception, 3D reconstruction, instance segmentation, microscopic image analysis, graph/topology-aware modeling, image signal processing, deep learning, and large-model research.
+- Engineering experience: Python/C/C++, deep learning algorithm development, computer vision pipelines, 3D perception workflows, algorithm simulation, data annotation tools, CLI automation, multi-agent workflows, and LoRA fine-tuning.

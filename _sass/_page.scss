@@ -49,7 +49,8 @@
 }
 
 .page__content {
-  #about-me{
+  #about-me,
+  .section-anchor {
     margin-top: -10em;
       &:before { 
         content: ''; 
@@ -61,9 +62,27 @@
     }
   }
   h1 {
-    margin-top: 1em;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    margin-top: 1.25em;
+    padding: 0.6em 0 0.45em;
+    border-bottom: 1px solid mix($border-color, #2f5f8f, 75%);
+    color: #24384f;
+    letter-spacing: 0;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 0.45em;
+      height: 0.45em;
+      margin-right: 0.45em;
+      border-radius: 50%;
+      background: #2f5f8f;
+      vertical-align: 0.12em;
+    }
+  }
+
+  h2 {
+    margin-top: 1.25em;
+    color: #2f3d4c;
   }
 
   p, li, dl {
@@ -115,6 +134,66 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+
+  .intro-panel,
+  .status-strip,
+  .section-note,
+  .publication-card {
+    border: 1px solid #d8e1ea;
+    border-radius: 8px;
+    background: #f8fbfd;
+    box-shadow: 0 1px 3px rgba(#24384f, 0.06);
+  }
+
+  .intro-panel {
+    margin: 0 0 1.4em;
+    padding: 1.1em 1.2em;
+    border-left: 4px solid #2f5f8f;
+  }
+
+  .status-strip {
+    margin: 0.4em 0 1.1em;
+    padding: 0.8em 1em;
+    background: #f4f8fb;
+  }
+
+  .section-note {
+    margin: 0.2em 0 1em;
+    padding: 0.8em 1em;
+    color: #425466;
+  }
+
+  .publication-list {
+    display: grid;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+
+  .publication-card {
+    padding: 1em;
+    background: #fff;
+  }
+
+  .workflow-figure {
+    margin: 1em 0 0;
+
+    img {
+      display: block;
+      width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+      border: 1px solid #d8e1ea;
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    figcaption {
+      margin-top: 0.5em;
+      color: #5a6875;
+      font-size: $type-size-6;
+      text-align: center;
+    }
   }
 }
 

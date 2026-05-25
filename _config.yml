@@ -7,10 +7,9 @@
 
 # Site Settings
 title                    : "Lin Zhicheng"
-description              : "Undergraduate student in Computer Science and Technology at Jimei University. Research interests include computer vision, image signal processing, scientific AI workflows, and robust cell lineage reconstruction."
+description              : "Junior undergraduate student in Computer Science and Technology at Jimei University. Research interests include computer vision, object detection, LiDAR and point-cloud perception, 3D reconstruction, and large models."
 repository               : "Ac157OL/Ac157OL.github.io"
 google_scholar_stats_use_cdn : true
-
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
