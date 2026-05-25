@@ -70,13 +70,7 @@
 
     &:before {
       content: "";
-      display: inline-block;
-      width: 0.45em;
-      height: 0.45em;
-      margin-right: 0.45em;
-      border-radius: 50%;
-      background: #2f5f8f;
-      vertical-align: 0.12em;
+      display: none;
     }
   }
 
@@ -138,7 +132,6 @@
 
   .intro-panel,
   .status-strip,
-  .section-note,
   .publication-card {
     border: 1px solid #d8e1ea;
     border-radius: 8px;
@@ -152,16 +145,77 @@
     border-left: 4px solid #2f5f8f;
   }
 
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.15em;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'liga';
+    vertical-align: -0.18em;
+  }
+
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.45em;
+  }
+
+  .section-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75em;
+    height: 1.75em;
+    border-radius: 8px;
+    background: #edf4f8;
+    color: #2f5f8f;
+    font-size: 0.78em;
+    vertical-align: 0;
+  }
+
+  .inline-icon {
+    margin-right: 0.3em;
+    color: #2f5f8f;
+  }
+
+  .research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55em;
+    margin: 0.8em 0 0.2em;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35em;
+      padding: 0.35em 0.65em;
+      border: 1px solid #d8e1ea;
+      border-radius: 999px;
+      background: #fff;
+      color: #2f3d4c;
+      font-size: $type-size-6;
+      font-weight: 600;
+    }
+
+    .material-symbols-outlined {
+      color: #2f5f8f;
+      font-size: 1.1em;
+    }
+  }
+
   .status-strip {
     margin: 0.4em 0 1.1em;
     padding: 0.8em 1em;
     background: #f4f8fb;
-  }
-
-  .section-note {
-    margin: 0.2em 0 1em;
-    padding: 0.8em 1em;
-    color: #425466;
   }
 
   .publication-list {
